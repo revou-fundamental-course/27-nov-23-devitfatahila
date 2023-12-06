@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Devit Fatahila Keliling dan Luas Segitiga</title>
+
+    
+</head>
+<body>
+   
+    <img id="triangle-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Green_equilateral_triangle_point_up.svg/200px-Green_equilateral_triangle_point_up.svg.png" alt="Segitiga">
+    <div id="container">
+        <h2>Hitung Keliling dan Luas Segitiga</h2>
+        <label for="sideA">Panjang Sisi A:</label>
+        <input type="number" id="sideA" placeholder="Masukkan panjang sisi A">
+    
+        <label for="sideB">Panjang Sisi B:</label>
+        <input type="number" id="sideB" placeholder="Masukkan panjang sisi B">
+    
+        <label for="sideC">Panjang Sisi C:</label>
+        <input type="number" id="sideC" placeholder="Masukkan panjang sisi C">
+    
+        <button onclick="hitung()">Hitung</button>
+        <button onclick="resetForm()">Reset</button>
+    
+        <div id="result"></div>
+    
+        <!-- Form untuk menghitung luas -->
+        <h3>Hitung Luas Segitiga</h3>
+        <label for="alas">Alas:</label>
+        <input type="number" id="alas" placeholder="Masukkan alas">
+    
+        <label for="tinggi">Tinggi:</label>
+        <input type="number" id="tinggi" placeholder="Masukkan tinggi">
+    
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <button onclick="resetForm()">Reset</button>
+    
+        <div id="luasResult"></div>
+      </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
